@@ -1,0 +1,390 @@
+<!DOCTYPE html5>
+<html>
+  <title>
+    Home
+  </title>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  
+  <section class="tabs-section text-white">
+    <div class="container-fluid">
+       <div class="row px-3">
+          <div class="col-sm-9">
+            <div class="tab-content text-center">
+              <div class="tab-pane active show" id="tab-0">
+                <div class="row">
+                  <div class="col-lg-12 mt-3">
+                    <div class="slideshow-container">
+
+                      <div class="mySlider">
+                        <img src="images/Screenshot_1.jpg" class="img-fluid w-75">
+                      </div>
+                      
+                      <div class="mySlider">
+                        <img src="images/Screenshot_2.jpg" class="img-fluid w-75">
+                      </div>
+                      
+                      <div class="mySlider">
+                        <img src="images/Screenshot_3.jpg" class="img-fluid w-75">
+                      </div>
+                      
+                      <div class="mySlider">
+                        <img src="images/Screenshot_4.jpg" class="img-fluid w-75">
+                      </div>
+                      
+                      <div class="mySlider">
+                        <img src="images/Screenshot_5.jpg" class="img-fluid w-75">
+                      </div>
+                      </div>
+                      <br>
+                      
+                      <div style="text-align:center; display:none">
+                        <span class="dot"></span> 
+                        <span class="dot"></span> 
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>                        
+                      </div>                     
+                  </div>
+                </div>
+              </div>
+                <div class="tab-pane" id="tab-1">
+                   <div class="row">
+                      <div class="col-lg-12">
+                         <div class="feature-img">                          
+                            <img src="images/Screenshot_6.jpg" class="img-fluid" onclick="openModal();currentSlide(1)">
+                            <img src="images/Screenshot_7.jpg" class="img-fluid" onclick="openModal();currentSlide(2)">
+                            <img src="images/Screenshot_8.jpg" class="img-fluid" onclick="openModal();currentSlide(3)">
+                            <img src="images/Screenshot_9.jpg" class="img-fluid" onclick="openModal();currentSlide(4)">
+                            <img src="images/Screenshot_10.jpg" class="img-fluid" onclick="openModal();currentSlide(5)">
+                            <img src="images/Screenshot_1.jpg" class="img-fluid" onclick="openModal();currentSlide(6)">
+                            <img src="images/Screenshot_2.jpg" class="img-fluid" onclick="openModal();currentSlide(7)">
+                            <img src="images/Screenshot_3.jpg" class="img-fluid" onclick="openModal();currentSlide(8)">
+                            <img src="images/Screenshot_4.jpg" class="img-fluid" onclick="openModal();currentSlide(9)">
+                         </div>
+                      </div>
+                   </div>
+                </div>
+                <div class="tab-pane" id="tab-2">
+                   <div class="row">
+                      <div class="col-lg-12">
+                         <div class="feature-img">
+                            <img src="images/Screenshot_5.jpg" class="img-fluid" onclick="openModal();currentSlide(10)">
+                            <img src="images/Screenshot_1.jpg" class="img-fluid" onclick="openModal();currentSlide(11)">
+                            <img src="images/Screenshot_7.jpg" class="img-fluid" onclick="openModal();currentSlide(12)">
+                            <img src="images/Screenshot_8.jpg" class="img-fluid" onclick="openModal();currentSlide(13)">
+                            <img src="images/Screenshot_9.jpg" class="img-fluid" onclick="openModal();currentSlide(14)">
+                            <img src="images/Screenshot_2.jpg" class="img-fluid" onclick="openModal();currentSlide(15)">
+                            <img src="images/Screenshot_6.jpg" class="img-fluid" onclick="openModal();currentSlide(1)">
+                            <img src="images/Screenshot_7.jpg" class="img-fluid" onclick="openModal();currentSlide(2)">
+                            <img src="images/Screenshot_8.jpg" class="img-fluid" onclick="openModal();currentSlide(3)">
+                         </div>
+                      </div>                      
+                   </div>
+                </div>
+                <div class="tab-pane" id="tab-3">
+                   <div class="row">
+                      <div class="col-lg-12">
+                         <div class="feature-img">
+                            <img src="images/Screenshot_4.jpg" class="img-fluid" onclick="openModal();currentSlide(9)">
+                            <img src="images/Screenshot_3.jpg" class="img-fluid" onclick="openModal();currentSlide(8)">
+                            <img src="images/Screenshot_2.jpg" class="img-fluid" onclick="openModal();currentSlide(7)">
+                            <img src="images/Screenshot_1.jpg" class="img-fluid" onclick="openModal();currentSlide(6)">
+                            <img src="images/Screenshot_10.jpg" class="img-fluid" onclick="openModal();currentSlide(5)">
+                            <img src="images/Screenshot_9.jpg" class="img-fluid" onclick="openModal();currentSlide(4)">
+                            <img src="images/Screenshot_8.jpg" class="img-fluid" onclick="openModal();currentSlide(3)">
+                            <img src="images/Screenshot_7.jpg" class="img-fluid" onclick="openModal();currentSlide(2)">
+                            <img src="images/Screenshot_6.jpg" class="img-fluid" onclick="openModal();currentSlide(1)">
+                         </div>
+                      </div>
+                   </div>
+                </div>
+                <div class="tab-pane" id="tab-4">
+                   <div class="row">
+                      <div class="col-lg-12">
+                         <div class="feature-img">
+                          <img src="images/Screenshot_1.jpg" class="img-fluid" onclick="openModal();currentSlide(11)">
+                          <img src="images/Screenshot_5.jpg" class="img-fluid" onclick="openModal();currentSlide(10)">
+                          <img src="images/Screenshot_4.jpg" class="img-fluid" onclick="openModal();currentSlide(9)">
+                          <img src="images/Screenshot_3.jpg" class="img-fluid" onclick="openModal();currentSlide(8)">
+                          <img src="images/Screenshot_2.jpg" class="img-fluid" onclick="openModal();currentSlide(7)">
+                            <img src="images/Screenshot_7.jpg" class="img-fluid" onclick="openModal();currentSlide(2)">
+                            <img src="images/Screenshot_8.jpg" class="img-fluid" onclick="openModal();currentSlide(3)">
+                            <img src="images/Screenshot_9.jpg" class="img-fluid" onclick="openModal();currentSlide(4)">
+                            <img src="images/Screenshot_10.jpg" class="img-fluid" onclick="openModal();currentSlide(5)">
+                         </div>
+                      </div>                      
+                   </div>
+                </div>
+                <div class="tab-pane" id="tab-5">
+                   <div class="row">
+                      <div class="col-lg-12">
+                         <div class="feature-img">
+                            <img src="images/Screenshot_2.jpg" class="img-fluid" onclick="openModal();currentSlide(15)">
+                            <img src="images/Screenshot_9.jpg" class="img-fluid" onclick="openModal();currentSlide(14)">
+                            <img src="images/Screenshot_8.jpg" class="img-fluid" onclick="openModal();currentSlide(13)">
+                            <img src="images/Screenshot_7.jpg" class="img-fluid" onclick="openModal();currentSlide(12)">
+                            <img src="images/Screenshot_6.jpg" class="img-fluid" onclick="openModal();currentSlide(11)">
+                            <img src="images/Screenshot_5.jpg" class="img-fluid" onclick="openModal();currentSlide(10)">
+                            <img src="images/Screenshot_4.jpg" class="img-fluid" onclick="openModal();currentSlide(9)">
+                            <img src="images/Screenshot_3.jpg" class="img-fluid" onclick="openModal();currentSlide(8)">
+                            <img src="images/Screenshot_2.jpg" class="img-fluid" onclick="openModal();currentSlide(7)">
+                         </div>
+                      </div>                      
+                   </div>
+                </div>
+                <div class="tab-pane" id="tab-6">
+                   <div class="row">
+                      <div class="col-lg-12">
+                         <div class="feature-img">
+                            <img src="images/Screenshot_1.jpg" class="img-fluid" onclick="openModal();currentSlide(6)">
+                            <img src="images/Screenshot_10.jpg" class="img-fluid" onclick="openModal();currentSlide(5)">
+                            <img src="images/Screenshot_9.jpg" class="img-fluid" onclick="openModal();currentSlide(4)">
+                            <img src="images/Screenshot_8.jpg" class="img-fluid" onclick="openModal();currentSlide(3)">
+                            <img src="images/Screenshot_7.jpg" class="img-fluid" onclick="openModal();currentSlide(2)">
+                            <img src="images/Screenshot_6.jpg" class="img-fluid" onclick="openModal();currentSlide(1)">
+                         </div>
+                      </div>                     
+                   </div>
+                </div>
+                <div class="tab-pane" id="tab-7">
+                  <div class="row">
+                     <div class="col-lg-12">
+                        <div class="feature-img">
+                            <img src="images/Screenshot_6.jpg" class="img-fluid" onclick="openModal();currentSlide(11)">
+                            <img src="images/Screenshot_5.jpg" class="img-fluid" onclick="openModal();currentSlide(10)">
+                            <img src="images/Screenshot_4.jpg" class="img-fluid" onclick="openModal();currentSlide(9)">
+                            <img src="images/Screenshot_3.jpg" class="img-fluid" onclick="openModal();currentSlide(8)">                          
+                            <img src="images/Screenshot_10.jpg" class="img-fluid" onclick="openModal();currentSlide(5)">
+                            <img src="images/Screenshot_1.jpg" class="img-fluid" onclick="openModal();currentSlide(6)">
+                            <img src="images/Screenshot_2.jpg" class="img-fluid" onclick="openModal();currentSlide(7)">
+                            <img src="images/Screenshot_3.jpg" class="img-fluid" onclick="openModal();currentSlide(8)">
+                            <img src="images/Screenshot_4.jpg" class="img-fluid" onclick="openModal();currentSlide(9)">
+                        </div>
+                     </div>                     
+                  </div>
+                </div>
+                <div class="tab-pane" id="tab-8">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="feature-img">
+                        <img src="images/Screenshot_5.jpg" class="img-fluid" onclick="openModal();currentSlide(10)">
+                        <img src="images/Screenshot_7.jpg" class="img-fluid" onclick="openModal();currentSlide(12)">
+                        <img src="images/Screenshot_8.jpg" class="img-fluid" onclick="openModal();currentSlide(13)">
+                        <img src="images/Screenshot_9.jpg" class="img-fluid" onclick="openModal();currentSlide(14)">
+                        <img src="images/Screenshot_10.jpg" class="img-fluid" onclick="openModal();currentSlide(5)">
+                        <img src="images/Screenshot_1.jpg" class="img-fluid" onclick="openModal();currentSlide(6)">
+                        <img src="images/Screenshot_2.jpg" class="img-fluid" onclick="openModal();currentSlide(7)">
+                        <img src="images/Screenshot_6.jpg" class="img-fluid" onclick="openModal();currentSlide(1)">                        
+                      </div>
+                    </div>                     
+                  </div>
+                </div>
+                <div class="tab-pane" id="tab-9">
+                  <div class="row">
+                     <div class="col-lg-12">
+                        <div class="feature-img">
+                            <img src="images/Screenshot_6.jpg" class="img-fluid" onclick="openModal();currentSlide(11)">
+                            <img src="images/Screenshot_7.jpg" class="img-fluid" onclick="openModal();currentSlide(12)">
+                            <img src="images/Screenshot_8.jpg" class="img-fluid" onclick="openModal();currentSlide(13)">
+                            <img src="images/Screenshot_9.jpg" class="img-fluid" onclick="openModal();currentSlide(14)">
+                            <img src="images/Screenshot_6.jpg" class="img-fluid" onclick="openModal();currentSlide(1)">
+                            <img src="images/Screenshot_5.jpg" class="img-fluid" onclick="openModal();currentSlide(10)">
+                            <img src="images/Screenshot_2.jpg" class="img-fluid" onclick="openModal();currentSlide(7)">
+                            <img src="images/Screenshot_9.jpg" class="img-fluid" onclick="openModal();currentSlide(14)">
+                            <img src="images/Screenshot_4.jpg" class="img-fluid" onclick="openModal();currentSlide(9)">
+                        </div>
+                      </div>                     
+                    </div>
+                  </div>               
+                <div class="tab-pane" id="tab-10">
+                  <div class="row">
+                     <div class="col-lg-12">
+                        <div class="feature-img p-5 font-italic">
+                          <p class="text-dark text-left w-50 mt-3">
+                            Lorem ipsum dolor sit amet,
+                             consectetur adipiscing elit. Nunc consequat elit ut sapien blandit, sit amet placerat nulla venenatis.
+                              Vestibulum quis magna erat. Vivamus tincidunt at ex quis facilisis. Mauris nibh felis, mollis sed eros in,
+                               tempus imperdiet elit. Suspendisse lobortis eu justo ut pellentesque. Ut et justo in purus accumsan eleifend et sit amet eros.
+                                Donec ex mauris, pharetra id condimentum vel, sagittis nec nulla. Suspendisse tincidunt ullamcorper fermentum.
+                                 Cras non finibus purus. Donec quis pulvinar tortor, eu fermentum dolor. Curabitur purus ipsum,
+                                  vestibulum ac nulla sit amet, venenatis tincidunt sapien.
+                          </p>
+                        </div>
+                      </div>                     
+                    </div>
+                  </div>                
+                <div class="tab-pane" id="tab-11">
+                  <div class="row">
+                     <div class="col-lg-12">
+                        <div class="feature-img text-dark text-left font-italic p-5">
+                          <h2>Contact Us</h2>
+                          <p class="text-dark text-left w-50 mt-3">
+                            <span class="font-weight-bold">Phone : </span> +109876543
+                          </p>
+                          <p class="text-dark text-left w-50 mt-3">
+                            <span class="font-weight-bold">Gmail : </span> leircel@gmail.com
+                          </p>
+                          <p class="text-dark text-left w-50 mt-3">
+                            Suspendisse lobortis eu justo ut pellentesque. Ut et justo in purus accumsan eleifend et sit amet eros.
+                                Donec ex mauris, pharetra id condimentum vel, sagittis nec nulla. Suspendisse tincidunt ullamcorper fermentum.
+                                 Cras non finibus purus. Donec quis pulvinar tortor, eu fermentum dolor. Curabitur purus ipsum,
+                                  vestibulum ac nulla sit amet, venenatis tincidunt sapien.
+                          </p>
+                        </div>
+                      </div>                     
+                    </div>
+                  </div>
+                </div>                               
+              </div>                      
+              <div class="col-sm-3 menu-tabs p-0">
+                <ul class="nav nav-tabs text-capitalize border-0 p-0 flex-column mb-3">
+                  <li class="nav-item">
+                     <a class="nav-link text-dark" data-toggle="tab" href="#tab-1" onclick="closeModal()"><span>new client work 2020</span></a>                   
+                  </li>                                  
+                  <li class="nav-item">
+                   <a class="nav-link text-dark" data-toggle="tab" href="#tab-2" onclick="closeModal()"><span>one big group</span></a>
+                  </li>
+                  <li class="nav-item tab3">
+                   <a class="nav-link text-dark" data-toggle="tab" href="#tab-3" onclick="closeModal()"><span>commissions/botox therapeutic</span></a>
+                  </li>
+                    <ul class="drop3">
+                      <li class="nav-item">
+                        <a class="nav-link text-dark" data-toggle="tab" href="#tab-2" onclick="closeModal()"><span>drop-down-1</span></a>
+                      </li>
+                      <li class="nav-item">
+                       <a class="nav-link text-dark" data-toggle="tab" href="#tab-9" onclick="closeModal()"><span>drop-down-2</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-dark" data-toggle="tab" href="#tab-3" onclick="closeModal()"><span>drop-down-3</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-dark" data-toggle="tab" href="#tab-7" onclick="closeModal()"><span>drop-down-4</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-dark" data-toggle="tab" href="#tab-1" onclick="closeModal()"><span>drop-down-5</span></a>
+                      </li>
+                    </ul>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" data-toggle="tab" href="#tab-4" onclick="closeModal()"><span>stories/joey slaight recovery family</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" data-toggle="tab" href="#tab-5" onclick="closeModal()"><span>the sun sets early</span></a>
+                 </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" data-toggle="tab" href="#tab-6" onclick="closeModal()"><span>professional photographer interview</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" data-toggle="tab" href="#tab-7" onclick="closeModal()"><span>personal projects/home - the book</span></a>
+                  </li> 
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" data-toggle="tab" href="#tab-8" onclick="closeModal()"><span>commissions/the kids are alright</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" data-toggle="tab" href="#tab-9" onclick="closeModal()"><span>stories/robots are real</span></a>
+                  </li>  
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" data-toggle="tab" href="#tab-10" onclick="closeModal()"><span>About</span></a>
+                  </li> 
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" data-toggle="tab" href="#tab-11" onclick="closeModal()"><span>Contact</span></a>
+                  </li> 
+                  <li class="nav-item">
+                     <a class="nav-link text-dark" target="_blank" href="https://www.instagram.com/" onclick="closeModal()"><i class="fa fa-instagram"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active show font-weight-bold page-title text-dark" data-toggle="tab" href="#tab-0" onclick="closeModal()">Timothy Archibald</a>
+                  </li>                            
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer class="container-fluid pr-5 text-right">
+            <p class="">CopyRight &copy Timothy Archibald 2021</p>
+        </footer>
+  
+
+
+
+ <div id="myModal" class="modal">
+  <span class="close cursor text-dark" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides1">
+      <img src="images/Screenshot_6.jpg" class="img-fluid">
+    </div>
+
+    <div class="mySlides1">
+      <img src="images/Screenshot_7.jpg" class="img-fluid">
+    </div>
+
+    <div class="mySlides1">
+      <img src="images/Screenshot_8.jpg" class="img-fluid">
+    </div>
+    
+    <div class="mySlides1">
+      <img src="images/Screenshot_9.jpg" class="img-fluid">
+    </div>
+    <div class="mySlides1">
+      <img src="images/Screenshot_10.jpg" class="img-fluid">
+    </div>
+
+    <div class="mySlides1">
+      <img src="images/Screenshot_1.jpg" class="img-fluid">
+    </div>
+
+    <div class="mySlides1">
+      <img src="images/Screenshot_2.jpg" class="img-fluid">
+    </div>
+    
+    <div class="mySlides1">
+      <img src="images/Screenshot_3.jpg" class="img-fluid">
+    </div>
+
+    <div class="mySlides1">
+      <img src="images/Screenshot_4.jpg" class="img-fluid">
+    </div>
+
+    <div class="mySlides1">
+      <img src="images/Screenshot_5.jpg" class="img-fluid">
+    </div>
+    <div class="mySlides1">
+      <img src="images/Screenshot_6.jpg" class="img-fluid">
+    </div>
+
+    <div class="mySlides1">
+      <img src="images/Screenshot_7.jpg" class="img-fluid">
+    </div>
+
+    <div class="mySlides1">
+      <img src="images/Screenshot_8.jpg" class="img-fluid">
+    </div>
+    
+    <div class="mySlides1">
+      <img src="images/Screenshot_9.jpg" class="img-fluid">
+    </div>
+    <div class="mySlides1">
+      <img src="images/Screenshot_2.jpg" class="img-fluid">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+</div>
+
+
+
+
+<script type="text/javascript" src="Js/jquery.js"></script>
+<script type="text/javascript" src="Js/app.js"></script>
+<script type="text/javascript" src="bootstrap/bootstrap js/bootstrap.js"></script>
+<script type="text/javascript" src="bootstrap/bootstrap js/bootstrap.min.js"></script>
+</body>
+</html>
